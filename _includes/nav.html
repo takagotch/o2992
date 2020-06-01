@@ -16,9 +16,14 @@
   	    <li {% if page.url == '/about.html' %} {% endif %}>
               <a class="page-scroll" href="#about">About</a>
             </li>
+
+	    <li {% if page.url == "blog.html" %} class="active" {% endif %}>
+	      <a href="blog.html">Blog</a>
+	    </li>
+
 	    <li {% if page.url == '/services.html'%} class="active" {% endif %}>
               <a class="page-scroll" href="#services">Services</a>
-	    </li {% if page.url == '/services.html' %} class="active" {% endif %}>
+	    </li>
 	    <li {% if page.url == '/portfolio.html' %} class="active" {% endif %}>
               <a class="page-scroll" href="#portfolio">Portfolio</a>
             </li>
